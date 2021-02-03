@@ -149,4 +149,4 @@ bot.on("message", async message => {
 
 keepAlive();
 
-bot.login(process.env.TOKEN)
+bot.login(process.env.TOKEN)//token is in the .env file
